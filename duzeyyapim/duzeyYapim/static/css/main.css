@@ -1,0 +1,460 @@
+@import url('http://fonts.cdnfonts.com/css/mark-pro');
+/* variables*/
+:root{
+    --bcolor:#0c0d0f;
+    --wcolor:white;
+    --colorh: #52b048 ;
+    --div-font: "Georgia";
+    }
+    
+/* NAVBAR*/
+.navbar-brand{
+    color:  var(--wcolor) !important;
+}
+.brand{
+    width: 150px !important;
+}
+.navbar-bg.scrolled{
+    background-color: #0c0d0f !important;
+    top: 0px !important;
+    transition: 0.2s ease-in-out !important;
+}
+.nav-link{
+    color:  var(--wcolor) !important;
+}
+.phone-green{
+    color: #52b048 !important;
+}
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background:  var(--wcolor) !important;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.middle-bar {
+    margin-top: 0px;
+}
+
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+    background-color:  var(--wcolor) !important;
+}
+/* NAVBAR END */
+
+/* HOME */
+.home{
+    width: 100% !important;
+    height: 100vh !important;
+    background:url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:  var(--wcolor) !important;
+
+}
+.home h2{
+    font-weight: 50 !important;
+    font-size:2.7rem;
+    
+}
+.home h1{
+    font-size:4rem !important;
+    font-weight: bold !important;
+    font-family: 'Mark Pro', sans-serif !important;
+}
+.home p{
+    font-size: 1.2rem;
+    font-weight: 100 !important;
+    
+}
+
+/* HOME END */
+/* FİRST-CONTENT */
+.frist-content p {
+    font-size: 14px !important;
+}
+.gorsel{
+width: 100px !important;
+height: 80px !important;
+border: 1px solid white !important;
+padding: 15px !important;
+float: left !important;
+}
+/* FİRST-CONTENT END */
+/* SECOND-CONTENT */
+.video{
+    width: 100% !important;
+    height: 300px !important;
+    backdrop-filter: blur(10px) ;
+}
+.second-content{
+    background-image: url('../img/first-content.jpg');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+
+}
+.second-content h3{
+    font-size: 2.5rem !important;
+    font-weight: 100 !important;
+}
+.second-content h1{
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+}
+/* SECOND-CONTENT END */
+/*THEERE CONTENT*/
+.three-content{
+    background-color:var(--bcolor) !important;
+    color: white !important;
+    
+}
+.three-content .three-h1{
+    font-size:4rem !important;
+    font-weight: 800;
+    font-family: 'Mark Pro', sans-serif !important;
+}
+.three-content .three-h2{
+    font-size:2.2rem !important;
+    font-weight: 100 !important;
+}
+/* THEREE CONTENT END*/
+/*FOUR-CONTENT*/
+.four-content{
+    background-image: url('../img/second-content.jpg');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    color: white !important;
+}
+.four-content h1{
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+}
+.four-content h2{
+    font-size: 1.5rem !important;
+    font-weight: 100 !important;
+}
+
+/*FOUR-CONTENT END*/
+/* FİVE-CONTENT */
+.five-content{
+    background-color: #0c0d0f !important;
+    color: white !important;
+}
+.sayi{
+    font-size: 5em !important;
+}
+
+/* FİVE-CONTENT END*/
+/* six-CONTENT */
+.six-content{
+    background-image: url('../img/second-content.jpg');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    color: white !important;
+}
+
+.six-content h2{
+   font-weight: 100 !important; 
+}
+.six-btn{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    width: 100px !important;
+}
+.form-control{
+    background-color: transparent !important;
+    border: 0.5px solid white !important;
+    color:white !important;
+    
+}
+.form-select{
+    background-color: transparent !important;
+    border: 0.5px solid white !important;
+    color:white !important;
+    background-image:url('../img/a.png') !important;
+}
+option{
+    background-color: black!important;
+    border: 0.5px solid white !important;
+    color: white !important;
+}
+/* six-CONTENT END*/
+
+/* seven-CONTENT */
+
+.seven-content{
+    background-color: #0c0d0f;
+    color: white;
+}
+
+.hizmet ul li {
+    text-decoration: none;
+    list-style-type: none !important;
+    padding:0px !important;
+}
+.hizmet ul {
+    padding-left: 0px !important;
+}
+.footer-a{
+    text-decoration: none !important;
+    color: white !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+}
+.footer-a:hover{
+    color: #52b048 !important;
+}
+.simge{
+    font-size: 1.5rem !important;
+    align-items: center !important;
+}
+/* MEDİA TİCET */
+@media screen  and (max-width:1200px) {
+
+    .home h1{
+        font-size:3.5rem !important;
+    }
+    .home h2{
+        font-weight: 50 !important;
+        font-size:2.5rem;        
+    }
+    .three-content p{
+        font-size: 1.5rem !important;
+        font-weight: 50 !important;
+    }
+    .second-content h3{
+        font-size: 2rem !important;
+        font-weight: 100 !important;
+    }
+    .second-content h1{
+        font-size: 2.5rem !important;
+        font-weight: 900 !important;
+    }
+    .four-content h1{
+        font-size: 2.5rem !important;
+        font-weight: 900 !important;
+    }
+    .four-content h2{
+        font-size: 1.5rem !important;
+        font-weight: 100 !important;
+    }
+}
+@media screen  and (max-width:991px) {
+
+    .cubuk{
+        display: none !important;
+    }
+    .footer-h{
+        font-size: 2rem !important;
+    }
+    .footer-a{
+        font-size: 1em !important;
+    }
+    .seven-content span {
+        font-size: 14px !important;
+    }
+    .brand{
+        width: 90px !important;
+    }
+    .second-content h3{
+        font-size: 2.5rem !important;
+        font-weight: 100 !important;
+    }
+    .second-content h1{
+        font-size: 3rem !important;
+        font-weight: 900 !important;
+    }
+    .four-content h1{
+        font-size: 3rem !important;
+        font-weight: 900 !important;
+    }
+    .four-content h2{
+        font-size: 1.5rem !important;
+        font-weight: 100 !important;
+    }
+    .navbar-nav{
+        background-color: var(--bcolor) !important;
+    }
+}
+@media screen  and (max-width:767px) {
+
+    .home h1{
+        font-size:3rem !important;
+    }
+    .home h2{
+        font-weight: 50 !important;
+        font-size:2.2rem;
+        
+    }
+    .seven-content span {
+        font-size: 15px !important;
+    }
+    .three-content .three-h1{
+        font-size: 3rem !important;
+    }
+    .gorsel{
+        margin-bottom: 12px !important;
+        float: none !important;   
+    }
+    .first-row{
+        text-align: center;
+    }
+    .second-content h3{
+        font-size: 2.5rem !important;
+        font-weight: 100 !important;
+    }
+    .second-content h1{
+        font-size: 2.6rem !important;
+        font-weight: 900 !important;
+    }
+}
+@media screen  and (max-width:476px) {
+    .three-content .three-h1{
+        font-size: 2rem !important;
+    }
+    .three-content .three-h2{
+        font-size: 1.6rem !important;
+    }
+    .home h1{
+        font-size:2.3rem !important;
+    }
+    .home h2{
+        font-weight: 50 !important;
+        font-size:1.5rem;        
+    }
+    .second-content h3{
+        font-size: 1.2rem !important;
+        font-weight: 900 !important;
+    }
+    .second-content h3{
+        font-size: 2rem !important;
+        font-weight: 100 !important;
+    }
+    .second-content h1{
+        font-size: 1.7rem !important;
+        font-weight: 900 !important;
+    }
+    .four-content h1{
+        font-size: 1.8rem !important;
+        font-weight: 900 !important;
+    }
+    .four-content h2{
+        font-size: 1.2rem !important;
+        font-weight: 100 !important;
+    }
+    .six-content h2{
+        font-size: 1.3rem !important;
+    }
+    .six-content h1{
+        font-size:1.5rem !important;
+    }
+    .six-content p{
+        font-size: 0.8rem !important;
+    }
+}
+@media screen  and (max-width:280px) {
+    .three-content .three-h1{
+        font-size: 1.5rem !important;
+    }
+    .three-content .three-h2{
+        font-size: 1.2rem !important;
+    }
+    .home h1{
+        font-size:1.6rem !important;
+    }
+    .home h2{
+        font-weight: 50 !important;
+        font-size:1.2rem;
+        
+    }
+    .home p{
+        font-size:0.9rem !important;
+    }
+    .second-content h3{
+        font-size: 1.5rem !important;
+        font-weight: 100 !important;
+    }
+    .second-content h1{
+        font-size: 1.4rem !important;
+        font-weight: 900 !important;
+    }
+    .second-content p{
+        font-size: 1rem !important;
+    }
+    .six-content h2{
+        font-size: 1rem !important;
+    }
+    .six-content h1{
+        font-size: 1rem !important;
+    }
+    .six-content p{
+        font-size: 0.8rem !important;
+    }
+    .four-content h1{
+        font-size: 1.6rem !important;
+        font-weight: 900 !important;
+    }
+    .four-content h2{
+        font-size: 1rem !important;
+        font-weight: 100 !important;
+    }
+    .four-content p{
+        font-size: 0.8rem !important;
+    }
+    .five-content-p{
+        font-size: 0.8rem !important;
+    }
+    footer p{
+        font-size: 0.9rem !important;
+    }
+}
